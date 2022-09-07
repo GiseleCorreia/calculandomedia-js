@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="calculomedia.css" rel="stylesheet" type="text/css" />
+    <title>Calcular Média</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Calculadora de Média</h1>
+      <br /><br />
+
+      <div>
+        <label for="notas" class="page-subtitle">Nome</label>
+        <input
+          type="text"
+          class="campo"
+          id="user"
+          placeholder="Seu nome"
+        /><br /><br />
+      </div>
+      <div>
+        <label class="page-subtitle">Insira suas as notas da AB1 e AB2</label
+        ><br /><br />
+        <input type="number" class="campo" id="ab1" placeholder="Nota AB1" />
+        <input type="number" class="campo" id="ab2" placeholder="Nota AB2" />
+      </div>
+      <br />
+      <div>
+        <button type="submit" id="botao" onclick="calcular()">Calcular</button
+        ><br /><br />
+        <h3 class="page-subtitle" id="resultadomedia"></h3>
+      </div>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpp33ZcTD6FX9HiIvv8ug4vM4kotfW27Q2FQ&usqp=CAU"
+      />
+    </div>
+  </body>
+  <script src="calculomedia.js"></script>
+</html>
